@@ -21,4 +21,8 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
+router.get('/newuser', (req,res)=>{
+  res.render('newAccount')
+})
+
 module.exports = router;
