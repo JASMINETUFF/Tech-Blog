@@ -16,3 +16,5 @@ Comment.init(
 );
 
 module.exports = Comment;
+
+// model for the comments
